@@ -5,3 +5,4 @@
 | sftp | ftp over ssh |
 | service networking restart | restarts network service, usefull after interface changes etc. |
 | nmap -sP 192.168.1.0/24 | to search for hosts that are up in that subnet |
+| sudo arp-scan --interface=wlan --localnet \| grep b8:27:eb | to search all raspberryPi's for a given interface |
